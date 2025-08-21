@@ -1,0 +1,41 @@
+name: Flutter Build
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '11'
+      
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.x'
+          channel: 'stable'
+      
+      - name: Get dependencies
+        run: flutter pub get
+        
+      - name: Build APK
+        run: |
+          BUILD_DATE=$(date +%y%m%d)
+          flutter build apk --release --build-name=0.0.0.5 --build-number=5
+          cd build/app/outputs/flutter-apk
+          mv app-release.apk ${BUILD_DATE}-rb-apk-ver0.0.0.5.apk
+          
+      - name: Upload APK
+        uses: actions/upload-artifact@v3
+        with:
+          name: app-release
+          path: build/app/outputs/flutter-apk/*-rb-apk-ver*.apk
