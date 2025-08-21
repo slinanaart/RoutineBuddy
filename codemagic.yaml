@@ -1,0 +1,52 @@
+workflows:
+  android-workflow:
+    name: Android Workflow
+    max_build_duration: 120
+    instance_type: mac_mini_m1
+    integrations:
+      app_store_connect: codemagic
+    environment:
+      android_signing:
+        - keystore_reference
+      groups:
+        - google_play
+      vars:
+        PACKAGE_NAME: "com.example.routine_buddy"
+        GOOGLE_PLAY_TRACK: internal
+      flutter: stable
+    scripts:
+      - name: Set up local.properties
+        script: |
+          echo "flutter.sdk=$HOME/programs/flutter" > "$CM_BUILD_DIR/android/local.properties"
+      - name: Get Flutter packages
+        script: |
+          flutter packages pub get
+      - name: Flutter analyze
+        script: |
+          flutter analyze
+      - name: Flutter unit tests
+        script: |
+          flutter test
+        ignore_failure: true
+      - name: Build APK with Flutter
+        script: |
+          BUILD_DATE=$(date +%y%m%d)
+          flutter build apk --release --build-name=0.0.0.5 --build-number=5
+          cd build/app/outputs/flutter-apk
+          mv app-release.apk ${BUILD_DATE}-rb-apk-ver0.0.0.5.apk
+    artifacts:
+      - build/**/outputs/**/*.apk
+      - build/**/outputs/**/*.aab
+      - build/**/outputs/**/mapping.txt
+      - flutter_drive.log
+    publishing:
+      email:
+        recipients:
+          - user@example.com
+        notify:
+          success: true
+          failure: false
+      google_play:
+        credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
+        track: internal
+        submit_as_draft: true

@@ -1,0 +1,2 @@
+-keep class io.flutter.** { *; }
+-dontwarn javax.annotation.**

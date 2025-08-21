@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.routine_buddy.app-mergeReleaseResources-7:/values-de/values-de.xml",
+            "map": [
+                {
+                    "source": "/Users/vanha/.gradle/caches/transforms-3/a751463504edc67f5cf8a82bdf8f6dbd/transformed/core-1.6.0/res/values-de/values-de.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

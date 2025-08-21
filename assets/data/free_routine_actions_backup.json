@@ -1,0 +1,1353 @@
+[
+  {
+    "id": 1,
+    "name": "Drink a glass of water",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Noon", "Afternoon", "Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 2,
+    "name": "Water sips",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Noon", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 3,
+    "name": "Coffee time",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 4,
+    "name": "Light stretch (5 min)",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 5,
+    "name": "Gentle yoga (10 min)",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 6,
+    "name": "Quick walk",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Noon", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 7,
+    "name": "Light walk",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 8,
+    "name": "Morning jog",
+    "category": "exercise",
+    "recommendedTimes": ["Morning"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 9,
+    "name": "Stand up–sit down x10, posture check",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 10,
+    "name": "Light exercise (5 min)",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 11,
+    "name": "Posture check",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 12,
+    "name": "Eye relaxation (1 min)",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Noon", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 13,
+    "name": "Breathing exercise (2 min)",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 14,
+    "name": "Gratitude note",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 15,
+    "name": "Self time",
+    "category": "personal",
+    "recommendedTimes": ["Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 16,
+    "name": "Listen to music",
+    "category": "personal",
+    "recommendedTimes": ["Noon", "Afternoon", "Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 17,
+    "name": "Read a book",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 18,
+    "name": "Journal reflection",
+    "category": "personal",
+    "recommendedTimes": ["Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 19,
+    "name": "Plan tomorrow",
+    "category": "productivity",
+    "recommendedTimes": ["Night"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 20,
+    "name": "Declutter desk",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 21,
+    "name": "Start work",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 22,
+    "name": "Focus block (30 min)",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 23,
+    "name": "Short break (5 min)",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 24,
+    "name": "Power nap (20 min)",
+    "category": "health",
+    "recommendedTimes": ["Noon", "Afternoon"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 25,
+    "name": "Social media check",
+    "category": "personal",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 26,
+    "name": "Digital detox (30 min)",
+    "category": "health",
+    "recommendedTimes": ["Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 27,
+    "name": "Text a friend",
+    "category": "social",
+    "recommendedTimes": ["Noon", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 28,
+    "name": "Call family",
+    "category": "social",
+    "recommendedTimes": ["Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 29,
+    "name": "Group chat check-in",
+    "category": "social",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 30,
+    "name": "Coffee with colleague",
+    "category": "social",
+    "recommendedTimes": ["Noon", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 31,
+    "name": "Lunch without phone",
+    "category": "health",
+    "recommendedTimes": ["Noon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 32,
+    "name": "Eat fruit snack",
+    "category": "health",
+    "recommendedTimes": ["Noon", "Afternoon"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 33,
+    "name": "Tea break",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 34,
+    "name": "Medium long run",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Noon", "Afternoon"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 35,
+    "name": "Short meditation (10 mins)",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 36,
+    "name": "Send a thoughtful message",
+    "category": "social",
+    "recommendedTimes": ["Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 37,
+    "name": "Compliment someone",
+    "category": "social",
+    "recommendedTimes": ["Noon", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 38,
+    "name": "Leisure activity",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Noon", "Afternoon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 39,
+    "name": "Morning walk",
+    "category": "exercise",
+    "recommendedTimes": ["Morning"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 40,
+    "name": "Stretch break",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 41,
+    "name": "Creative sketch",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 42,
+    "name": "Draw or doodle",
+    "category": "personal",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 43,
+    "name": "Hobby time",
+    "category": "personal",
+    "recommendedTimes": ["Afternoon", "Evening", "Night"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 44,
+    "name": "Watch a show",
+    "category": "personal",
+    "recommendedTimes": ["Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 45,
+    "name": "Play a game",
+    "category": "personal",
+    "recommendedTimes": ["Afternoon", "Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 46,
+    "name": "Quick cleaning",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Noon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 47,
+    "name": "Do laundry",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 48,
+    "name": "Grocery shopping",
+    "category": "chores",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 49,
+    "name": "Cook a meal",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Noon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 50,
+    "name": "Try a new recipe",
+    "category": "chores",
+    "recommendedTimes": ["Noon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 51,
+    "name": "Light chore",
+    "category": "chores",
+    "recommendedTimes": ["Noon", "Afternoon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 52,
+    "name": "Organize one drawer",
+    "category": "chores",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 53,
+    "name": "Weekend planning",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Noon"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 54,
+    "name": "Weekly review",
+    "category": "productivity",
+    "recommendedTimes": ["Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 55,
+    "name": "Goal check-in",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 56,
+    "name": "Personal planning",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 57,
+    "name": "Schedule review",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 58,
+    "name": "Write a to-do list",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 59,
+    "name": "Review calendar",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 60,
+    "name": "Email cleanup",
+    "category": "productivity",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 61,
+    "name": "Reply emails",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 62,
+    "name": "Plan tomorrow's top 3 tasks",
+    "category": "productivity",
+    "recommendedTimes": ["Evening", "Night"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 63,
+    "name": "Focus on one task",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 64,
+    "name": "Finish work",
+    "category": "productivity",
+    "recommendedTimes": ["Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 65,
+    "name": "Clear desk & workspace",
+    "category": "productivity",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 66,
+    "name": "Take vitamins",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Noon"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 67,
+    "name": "Healthy snack",
+    "category": "health",
+    "recommendedTimes": ["Noon", "Afternoon"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 68,
+    "name": "Stretch with band",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 69,
+    "name": "Pushups set",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 70,
+    "name": "Core exercise (plank)",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 71,
+    "name": "Squats set",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 72,
+    "name": "Dance break",
+    "category": "exercise",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 73,
+    "name": "Cycling (short)",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 74,
+    "name": "Sports practice",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 75,
+    "name": "Gardening",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 76,
+    "name": "Water plants",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 77,
+    "name": "Pet care",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 78,
+    "name": "Take a long shower or bath",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 79,
+    "name": "Skincare routine",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 80,
+    "name": "Mindful breathing (5 min reset)",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Afternoon", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 81,
+    "name": "Eye relaxation break (20–20–20 rule)",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 82,
+    "name": "Professional grooming & appearance check",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 83,
+    "name": "Morning routine",
+    "category": "personal",
+    "recommendedTimes": ["Morning"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 84,
+    "name": "Outfit prep",
+    "category": "personal",
+    "recommendedTimes": ["Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 85,
+    "name": "Meal prep",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Noon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 86,
+    "name": "Clean kitchen",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Noon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 87,
+    "name": "Wash dishes",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Noon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 88,
+    "name": "Vacuum room",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 89,
+    "name": "Mop floor",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 90,
+    "name": "Empty trash",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 91,
+    "name": "Healthy snack check (fruit, nuts, hydration)",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Noon", "Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 92,
+    "name": "Gratitude journal",
+    "category": "personal",
+    "recommendedTimes": ["Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 93,
+    "name": "Meditation & mind relax",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 94,
+    "name": "Check in with my own emotions",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 95,
+    "name": "Podcast listen",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Noon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 96,
+    "name": "Educational video",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Noon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 97,
+    "name": "Learn a new word",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Noon", "Night"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 98,
+    "name": "Language practice",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Noon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 99,
+    "name": "Skill practice (15 min)",
+    "category": "personal",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 100,
+    "name": "Creative writing",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays"]
+  }
+]
+    "id": 8,
+    "name": "Morning jog",
+    "category": "exercise",
+    "recommendedTimes": ["Morning"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 9,
+    "name": "Stand up–sit down x10, check posture",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 10,
+    "name": "Light exercise (5 min)",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 11,
+    "name": "Posture check",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 12,
+    "name": "Eye relaxation (1 min)",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Noon", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 13,
+    "name": "Breathing exercise (2 min)",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 14,
+    "name": "Gratitude note",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 15,
+    "name": "Self time",
+    "category": "personal",
+    "recommendedTimes": ["Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 16,
+    "name": "Listen to music",
+    "category": "personal",
+    "recommendedTimes": ["Noon", "Afternoon", "Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 17,
+    "name": "Read a book",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 18,
+    "name": "Journal reflection",
+    "category": "personal",
+    "recommendedTimes": ["Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 19,
+    "name": "Plan tomorrow",
+    "category": "productivity",
+    "recommendedTimes": ["Night"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 20,
+    "name": "Declutter desk",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 21,
+    "name": "Start work",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 22,
+    "name": "Focus block (30 min)",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 23,
+    "name": "Short break (5 min)",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 24,
+    "name": "Power nap (20 min)",
+    "category": "health",
+    "recommendedTimes": ["Noon", "Afternoon"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 25,
+    "name": "Social media check",
+    "category": "personal",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 26,
+    "name": "Digital detox (30 min)",
+    "category": "health",
+    "recommendedTimes": ["Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 27,
+    "name": "Text a friend",
+    "category": "personal",
+    "recommendedTimes": ["Noon", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 28,
+    "name": "Call family",
+    "category": "personal",
+    "recommendedTimes": ["Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 29,
+    "name": "Group chat check-in",
+    "category": "personal",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 30,
+    "name": "Coffee with colleague",
+    "category": "personal",
+    "recommendedTimes": ["Noon", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 31,
+    "name": "Lunch without phone",
+    "category": "health",
+    "recommendedTimes": ["Noon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 32,
+    "name": "Eat fruit snack",
+    "category": "health",
+    "recommendedTimes": ["Noon", "Afternoon"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 33,
+    "name": "Tea break",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 34,
+    "name": "Hydration check",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Noon", "Afternoon"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 35,
+    "name": "Short meditation",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 36,
+    "name": "Gratitude text",
+    "category": "personal",
+    "recommendedTimes": ["Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 37,
+    "name": "Compliment someone",
+    "category": "personal",
+    "recommendedTimes": ["Noon", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 38,
+    "name": "Leisure activity",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Noon", "Afternoon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 39,
+    "name": "Morning walk",
+    "category": "exercise",
+    "recommendedTimes": ["Morning"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 40,
+    "name": "Stretch break",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 41,
+    "name": "Creative sketch",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 42,
+    "name": "Draw or doodle",
+    "category": "personal",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 43,
+    "name": "Hobby time",
+    "category": "personal",
+    "recommendedTimes": ["Afternoon", "Evening", "Night"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 44,
+    "name": "Watch a show",
+    "category": "personal",
+    "recommendedTimes": ["Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 45,
+    "name": "Play a game",
+    "category": "personal",
+    "recommendedTimes": ["Afternoon", "Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 46,
+    "name": "Quick cleaning",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Noon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 47,
+    "name": "Do laundry",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 48,
+    "name": "Grocery shopping",
+    "category": "chores",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 49,
+    "name": "Cook a meal",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Noon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 50,
+    "name": "Try a new recipe",
+    "category": "chores",
+    "recommendedTimes": ["Noon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 51,
+    "name": "Light chore",
+    "category": "chores",
+    "recommendedTimes": ["Noon", "Afternoon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 52,
+    "name": "Organize one drawer",
+    "category": "chores",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 53,
+    "name": "Weekend planning",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Noon"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 54,
+    "name": "Weekly review",
+    "category": "productivity",
+    "recommendedTimes": ["Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 55,
+    "name": "Goal check-in",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 56,
+    "name": "Personal planning",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 57,
+    "name": "Schedule review",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 58,
+    "name": "Write a to-do list",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 59,
+    "name": "Review calendar",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 60,
+    "name": "Email cleanup",
+    "category": "productivity",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 61,
+    "name": "Reply emails",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 62,
+    "name": "Inbox zero attempt",
+    "category": "productivity",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 63,
+    "name": "Focus on one task",
+    "category": "productivity",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 64,
+    "name": "Finish work",
+    "category": "productivity",
+    "recommendedTimes": ["Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 65,
+    "name": "Wrap up desk",
+    "category": "productivity",
+    "recommendedTimes": ["Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 66,
+    "name": "Take vitamins",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Noon"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 67,
+    "name": "Healthy snack",
+    "category": "health",
+    "recommendedTimes": ["Noon", "Afternoon"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 68,
+    "name": "Stretch with band",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 69,
+    "name": "Pushups set",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 70,
+    "name": "Core exercise (plank)",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 71,
+    "name": "Squats set",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 72,
+    "name": "Dance break",
+    "category": "exercise",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 73,
+    "name": "Cycling (short)",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 74,
+    "name": "Sports practice",
+    "category": "exercise",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 75,
+    "name": "Gardening",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Day-offs"]
+  },
+  {
+    "id": 76,
+    "name": "Water plants",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 77,
+    "name": "Pet care",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 78,
+    "name": "Take a shower",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 79,
+    "name": "Skincare routine",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 80,
+    "name": "Wash face",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Afternoon", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 81,
+    "name": "Brush teeth",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 82,
+    "name": "Shave or groom",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 83,
+    "name": "Get dressed",
+    "category": "personal",
+    "recommendedTimes": ["Morning"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 84,
+    "name": "Outfit prep",
+    "category": "personal",
+    "recommendedTimes": ["Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 85,
+    "name": "Meal prep",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Noon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 86,
+    "name": "Clean kitchen",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Noon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 87,
+    "name": "Wash dishes",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Noon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 88,
+    "name": "Vacuum room",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 89,
+    "name": "Mop floor",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Afternoon"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 90,
+    "name": "Empty trash",
+    "category": "chores",
+    "recommendedTimes": ["Morning", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 91,
+    "name": "Mindful breathing",
+    "category": "health",
+    "recommendedTimes": ["Morning", "Noon", "Evening", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 92,
+    "name": "Gratitude journal",
+    "category": "personal",
+    "recommendedTimes": ["Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 93,
+    "name": "Visualization (5 min)",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 94,
+    "name": "Affirmations",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 95,
+    "name": "Podcast listen",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Noon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
+  },
+  {
+    "id": 96,
+    "name": "Educational video",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Noon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 97,
+    "name": "Learn a new word",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Noon", "Night"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 98,
+    "name": "Language practice",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Noon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 99,
+    "name": "Skill practice (15 min)",
+    "category": "personal",
+    "recommendedTimes": ["Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays"]
+  },
+  {
+    "id": 100,
+    "name": "Creative writing",
+    "category": "personal",
+    "recommendedTimes": ["Morning", "Night"],
+    "recommendedDays": ["Weekdays"]
+  }
+]

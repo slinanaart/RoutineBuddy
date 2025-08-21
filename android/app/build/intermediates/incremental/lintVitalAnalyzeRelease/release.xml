@@ -1,0 +1,35 @@
+<variant
+    name="release"
+    package="com.example.routine_buddy"
+    minSdkVersion="23"
+    targetSdkVersion="33"
+    mergedManifest="build/intermediates/merged_manifest/release/AndroidManifest.xml"
+    proguardFiles="build/intermediates/default_proguard_files/global/proguard-android.txt-8.0.0:/Users/vanha/development/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro:build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.0.0:proguard-rules.pro"
+    partialResultsDir="build/intermediates/lint_vital_partial_results/release/out"
+    desugaredMethodsFiles="/Users/vanha/.gradle/caches/transforms-3/22fc8b4857da7870cf56d04084eb1137/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/release/java:src/main/kotlin:src/release/kotlin"
+        resDirectories="src/main/res:src/release/res"
+        assetsDirectories="src/main/assets:src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="build/intermediates/javac/release/classes:build/tmp/kotlin-classes/release:build/kotlinToolingMetadata:build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      applicationId="com.example.routine_buddy"
+      generatedSourceFolders="build/generated/ap_generated_sources/release/out:build/generated/source/buildConfig/release"
+      generatedResourceFolders="build/generated/res/resValues/release"
+      desugaredMethodsFiles="/Users/vanha/.gradle/caches/transforms-3/22fc8b4857da7870cf56d04084eb1137/transformed/D8BackportedDesugaredMethods.txt">
+  </mainArtifact>
+</variant>

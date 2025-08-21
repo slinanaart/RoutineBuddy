@@ -1,0 +1,12 @@
+com.example.routine_buddy.app-jetified-annotation-experimental-1.1.0-0 /Users/vanha/.gradle/caches/transforms-3/27d6c77db3d5703f3538789aac45fb6a/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.routine_buddy.app-jetified-window-java-1.0.0-beta04-1 /Users/vanha/.gradle/caches/transforms-3/73a0f0f0f5cc5b06ee1448eebb0bcf09/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.routine_buddy.app-jetified-window-1.0.0-beta04-2 /Users/vanha/.gradle/caches/transforms-3/a01fe797340544e5159e4c154e98035b/transformed/jetified-window-1.0.0-beta04/res
+com.example.routine_buddy.app-core-1.6.0-3 /Users/vanha/.gradle/caches/transforms-3/a751463504edc67f5cf8a82bdf8f6dbd/transformed/core-1.6.0/res
+com.example.routine_buddy.app-packaged_res-4 /Users/vanha/.pub-cache/hosted/pub.dev/shared_preferences_android-2.2.1/android/build/intermediates/packaged_res/release
+com.example.routine_buddy.app-pngs-5 /Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/build/generated/res/pngs/release
+com.example.routine_buddy.app-resValues-6 /Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/build/generated/res/resValues/release
+com.example.routine_buddy.app-mergeReleaseResources-7 /Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.example.routine_buddy.app-mergeReleaseResources-8 /Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.example.routine_buddy.app-merged_res-9 /Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/build/intermediates/merged_res/release
+com.example.routine_buddy.app-main-10 /Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/res
+com.example.routine_buddy.app-release-11 /Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/release/res

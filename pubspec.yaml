@@ -1,0 +1,22 @@
+name: routine_buddy
+description: RoutineBuddy — working base + first-run onboarding
+publish_to: "none"
+version: 0.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/templates.json
+    - assets/data/free_routine_actions.json

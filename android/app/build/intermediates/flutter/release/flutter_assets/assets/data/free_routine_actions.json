@@ -1,0 +1,5 @@
+[
+  {"id":"walk10","title":"10-minute walk","category":"Energy","recommended_time":"Afternoon"},
+  {"id":"read10","title":"Read 10 minutes","category":"Learning","recommended_time":"Night"},
+  {"id":"gratitude","title":"Gratitude note","category":"Mindfulness","recommended_time":"Night"}
+]

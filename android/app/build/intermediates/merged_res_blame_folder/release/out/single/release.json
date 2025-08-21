@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.routine_buddy.app-merged_res-9:/drawable_launch_background.xml.flat",
+        "source": "com.example.routine_buddy.app-main-10:/drawable/launch_background.xml"
+    },
+    {
+        "merged": "com.example.routine_buddy.app-merged_res-9:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.routine_buddy.app-main-10:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.routine_buddy.app-merged_res-9:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.routine_buddy.app-main-10:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]

@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.routine_buddy"
+4    android:versionCode="1"
+5    android:versionName="0.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml
+10
+11    <application
+12        android:name="android.app.Application"
+12-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:3:45-78
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.6.0] /Users/vanha/.gradle/caches/transforms-3/a751463504edc67f5cf8a82bdf8f6dbd/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+14        android:extractNativeLibs="false"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:3:79-113
+16        android:label="RoutineBuddy" >
+16-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:3:16-44
+17        <activity
+17-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:4:5-9:16
+18            android:name="com.example.routine_buddy.MainActivity"
+18-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:4:15-43
+19            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+19-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:5:7-157
+20            android:exported="true"
+20-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:4:44-67
+21            android:hardwareAccelerated="true"
+21-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:6:7-41
+22            android:launchMode="singleTop"
+22-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:4:68-98
+23            android:theme="@style/LaunchTheme"
+23-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:4:99-133
+24            android:windowSoftInputMode="adjustResize" >
+24-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:6:42-84
+25            <meta-data
+25-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:7:7-132
+26                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+26-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:7:18-82
+27                android:resource="@drawable/launch_background" />
+27-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:7:83-129
+28
+29            <intent-filter>
+29-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:8:7-148
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:8:22-73
+30-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:8:30-71
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:8:73-132
+32-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:8:83-130
+33            </intent-filter>
+34        </activity>
+35
+36        <meta-data
+36-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:10:5-68
+37            android:name="flutterEmbedding"
+37-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:10:16-47
+38            android:value="2" />
+38-->/Users/vanha/Proj/250815/250814_routinebuddy_0.0.0.1/android/app/src/main/AndroidManifest.xml:10:48-65
+39
+40        <uses-library
+40-->[androidx.window:window:1.0.0-beta04] /Users/vanha/.gradle/caches/transforms-3/a01fe797340544e5159e4c154e98035b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+41            android:name="androidx.window.extensions"
+41-->[androidx.window:window:1.0.0-beta04] /Users/vanha/.gradle/caches/transforms-3/a01fe797340544e5159e4c154e98035b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+42            android:required="false" />
+42-->[androidx.window:window:1.0.0-beta04] /Users/vanha/.gradle/caches/transforms-3/a01fe797340544e5159e4c154e98035b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+43        <uses-library
+43-->[androidx.window:window:1.0.0-beta04] /Users/vanha/.gradle/caches/transforms-3/a01fe797340544e5159e4c154e98035b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+44            android:name="androidx.window.sidecar"
+44-->[androidx.window:window:1.0.0-beta04] /Users/vanha/.gradle/caches/transforms-3/a01fe797340544e5159e4c154e98035b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+45            android:required="false" />
+45-->[androidx.window:window:1.0.0-beta04] /Users/vanha/.gradle/caches/transforms-3/a01fe797340544e5159e4c154e98035b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+46    </application>
+47
+48</manifest>

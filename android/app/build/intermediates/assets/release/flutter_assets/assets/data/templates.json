@@ -1,0 +1,17 @@
+{
+  "free_templates":[
+    {
+      "id":"casual",
+      "name":"The Casual",
+      "description":"Balanced default routine for the whole week.",
+      "actions":[
+        {"id":"wake-water","title":"Drink water","category":"Health","recommended_time":"07:15"},
+        {"id":"plan-top3","title":"Plan Top 3","category":"Planning","recommended_time":"09:00"},
+        {"id":"pm-stretch","title":"Neck & shoulder stretch","category":"Health","recommended_time":"16:00"}
+      ]
+    }
+  ],
+  "locked_templates":[
+    {"id":"t1","name":"Deep Work"}
+  ]
+}
