@@ -23,14 +23,21 @@ jobs:
           flutter-version: '3.24.1'
           channel: 'stable'
       
-      - name: Get dependencies
-        run: flutter pub get
+      - name: Clean and get dependencies
+        run: |
+          flutter clean
+          flutter pub get
+        
+      - name: Analyze code
+        run: flutter analyze --no-fatal-infos
+        continue-on-error: true
         
       - name: Build APK
         run: |
           BUILD_DATE=$(date +%y%m%d)
-          flutter build apk --release --build-name=0.0.0.6 --build-number=6
+          flutter build apk --release --build-name=0.0.0.6 --build-number=6 --no-shrink
           cd build/app/outputs/flutter-apk
+          ls -la
           mv app-release.apk ${BUILD_DATE}-rb-apk-ver0.0.0.6.apk
           
       - name: Upload APK as Artifact
@@ -38,3 +45,4 @@ jobs:
         with:
           name: routine-buddy-apk
           path: build/app/outputs/flutter-apk/*-rb-apk-ver*.apk
+          retention-days: 30
