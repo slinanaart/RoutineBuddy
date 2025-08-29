@@ -68,12 +68,18 @@ cd ..
 mkdir -p build/outputs/release
 cp temp_build_project/build/app/outputs/flutter-apk/app-release.apk "build/outputs/release/$APK_NAME"
 
+# Also copy APK to source folder for easy access
+echo "📱 Copying APK to source folder..."
+cp "build/outputs/release/$APK_NAME" "./$APK_NAME"
+
 # Cleanup
 rm -rf temp_build_project
 
 echo "✅ Build complete!"
-echo "📱 APK: build/outputs/release/$APK_NAME"
-echo "💾 Size: $(du -h "build/outputs/release/$APK_NAME" | cut -f1)"
+echo "📱 APK in source folder: ./$APK_NAME"
+echo "📁 APK in build folder: build/outputs/release/$APK_NAME"
+echo "💾 Size: $(du -h "./$APK_NAME" | cut -f1)"
 
-# Open outputs folder
+# Open outputs folder and show source folder APK
 open build/outputs/release/
+echo "🎉 APK is ready in source folder: $APK_NAME"

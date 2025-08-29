@@ -35,14 +35,14 @@ jobs:
       - name: Build APK
         run: |
           BUILD_DATE=$(date +%y%m%d)
-          flutter build apk --release --build-name=0.0.0.6 --build-number=6 --no-shrink
+          flutter build apk --release --build-name=0.0.0.7 --build-number=7 --no-shrink
           cd build/app/outputs/flutter-apk
           ls -la
-          mv app-release.apk ${BUILD_DATE}-rb-apk-ver0.0.0.6.apk
+          mv app-release.apk ${BUILD_DATE}-rb-apk-ver0.0.0.7.apk
           
       - name: Upload APK as Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: routine-buddy-apk
+          name: routine-buddy-apk-v0.0.0.7
           path: build/app/outputs/flutter-apk/*-rb-apk-ver*.apk
           retention-days: 30
