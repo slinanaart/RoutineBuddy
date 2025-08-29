@@ -1,0 +1,39 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="maskableGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5DD5C0"/>
+      <stop offset="100%" stop-color="#1F9CB0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Full circle for maskable icons -->
+  <circle cx="256" cy="256" r="256" fill="url(#maskableGradient)"/>
+  
+  <!-- Hourglass (slightly scaled down for safe area) -->
+  <g fill="white" stroke="none" transform="translate(0, 0) scale(0.9) translate(25.6, 25.6)">
+    <!-- Top rim -->
+    <rect x="138" y="108" width="236" height="28" rx="14" ry="14"/>
+    
+    <!-- Top bulb -->
+    <path d="M160 136 L352 136 L352 180 Q352 200 332 200 L180 200 Q160 200 160 180 Z"/>
+    
+    <!-- Top sand -->
+    <path d="M186 160 L326 160 L326 176 Q326 184 318 184 L194 184 Q186 184 186 176 Z"/>
+    
+    <!-- Neck/waist -->
+    <path d="M235 200 L277 200 L277 312 L235 312 Z"/>
+    
+    <!-- Bottom bulb -->
+    <path d="M160 312 L352 312 L352 356 Q352 376 332 376 L180 376 Q160 376 160 356 Z"/>
+    
+    <!-- Bottom sand -->
+    <path d="M186 328 L326 328 L326 344 Q326 352 318 352 L194 352 Q186 352 186 344 Z"/>
+    
+    <!-- Bottom rim -->
+    <rect x="138" y="376" width="236" height="28" rx="14" ry="14"/>
+    
+    <!-- Sand flow effect -->
+    <polygon points="256,200 266,220 246,220" fill="white" opacity="0.8"/>
+    <polygon points="256,292 270,312 242,312" fill="white" opacity="0.9"/>
+  </g>
+</svg>

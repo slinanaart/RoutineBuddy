@@ -1,0 +1,105 @@
+Setting,Value,,,,
+Goal,"Maintain a simple, balanced daily flow that supports health, light activity, and personal time with minimal effort.",,,,
+Target User,Office or hybrid workers who want gentle reminders for everyday basics without overcomplication.,,,,
+Schedule Mode,Daily,,,,
+Day-offs,"Sat, Sun",,,,
+Stop routine on the day-offs,OFF,,,,
+Repeat weekdays routine,OFF + Disabled,,,,
+Wake Time,06:00,,,,
+Meal Times,"Breakfast: 07:00, Lunch: 12:00, Dinner: 19:30",,,,
+Sleep Time,22:30,,,,
+Day,Time,Actions,Category,Recommended Times,Frequency
+Monday,06:00,Wake Up,Schedule,Morning,
+Monday,06:35,Drink a full glass of water,Health,Morning,1
+Monday,06:45,Light exercise (10 min),Exercise,Morning,2
+Monday,07:00,Breakfast,Schedule,Morning,
+Monday,08:30,Start work,Productivity,"Morning,Afternoon",
+Monday,09:30,"Stand up–sit down x10, check posture",Exercise,"Morning,Afternoon",4
+Monday,10:30,Water sips,Health,"Morning,Noon,Afternoon,Evening",6
+Monday,12:00,Lunch,Schedule,Noon,
+Monday,12:45,Short meditation (10 mins),Exercise,"Morning,Afternoon,Evening",2
+Monday,17:30,Finish work,Productivity,"Afternoon,Evening",
+Monday,19:30,Dinner,Schedule,Evening,
+Monday,21:00,Self-care time,Leisure,"Evening,Night",1
+Monday,22:00,Review tomorrow's routine,Schedule,Night,
+Monday,22:30,Sleep,Schedule,Night,
+Tuesday,06:00,Wake Up,Schedule,Morning,
+Tuesday,06:35,Drink a full glass of water,Health,Morning,1
+Tuesday,06:45,Gentle yoga (10 min),Exercise,"Morning,Evening",2
+Tuesday,07:00,Breakfast,Schedule,Morning,
+Tuesday,08:30,Start work,Productivity,"Morning,Afternoon",
+Tuesday,09:30,"Stand up–sit down x10, check posture",Exercise,"Morning,Afternoon",4
+Tuesday,10:30,Water sips,Health,"Morning,Noon,Afternoon,Evening",6
+Tuesday,12:00,Lunch,Schedule,Noon,
+Tuesday,12:45,Light jog,Exercise,"Morning,Afternoon,Evening",
+Tuesday,17:30,Finish work,Productivity,"Afternoon,Evening",
+Tuesday,19:30,Dinner,Schedule,Evening,
+Tuesday,21:00,Self-care time,Leisure,"Evening,Night",1
+Tuesday,22:00,Review tomorrow's routine,Schedule,Night,
+Tuesday,22:30,Sleep,Schedule,Night,
+Wednesday,06:00,Wake Up,Schedule,Morning,
+Wednesday,06:35,Drink a full glass of water,Health,Morning,1
+Wednesday,06:45,Morning jog,Exercise,"Morning,Afternoon,Evening",2
+Wednesday,07:00,Breakfast,Schedule,Morning,
+Wednesday,08:30,Start work,Productivity,"Morning,Afternoon",
+Wednesday,09:30,"Stand up–sit down x10, check posture",Exercise,"Morning,Afternoon",4
+Wednesday,10:30,Water sips,Health,"Morning,Noon,Afternoon,Evening",6
+Wednesday,12:00,Lunch without phone,Schedule,Noon,
+Wednesday,12:45,Short meditation (10 mins),Exercise,"Morning,Afternoon,Evening",2
+Wednesday,17:30,Finish work,Productivity,"Afternoon,Evening",
+Wednesday,19:30,Dinner,Schedule,Evening,
+Wednesday,21:00,Self-care time,Leisure,"Evening,Night",1
+Wednesday,22:00,Review tomorrow's routine,Schedule,Night,
+Wednesday,22:30,Sleep,Schedule,Night,
+Thursday,06:00,Wake Up,Schedule,Morning,
+Thursday,06:35,Drink a full glass of water,Health,Morning,1
+Thursday,06:45,Breathing exercise (10 min),Exercise,"Morning,Afternoon,Evening",2
+Thursday,07:00,Breakfast,Schedule,Morning,
+Thursday,08:30,Start work,Productivity,"Morning,Afternoon",
+Thursday,09:30,"Stand up–sit down x10, check posture",Exercise,"Morning,Afternoon",4
+Thursday,10:30,Water sips,Health,"Morning,Noon,Afternoon,Evening",6
+Thursday,12:00,Lunch,Schedule,Noon,
+Thursday,12:45,Light jog,Exercise,"Morning,Afternoon,Evening",2
+Thursday,17:30,Finish work,Productivity,"Afternoon,Evening",
+Thursday,19:30,Dinner,Schedule,Evening,
+Thursday,21:00,Self-care time,Leisure,"Evening,Night",1
+Thursday,22:00,Review tomorrow's routine,Schedule,Night,
+Thursday,22:30,Sleep,Schedule,Night,
+Friday,06:00,Wake Up,Schedule,Morning,
+Friday,06:35,Drink a full glass of water,Health,Morning,1
+Friday,06:45,Light exercise (10 min),Exercise,"Morning,Afternoon",2
+Friday,07:00,Breakfast,Schedule,Morning,
+Friday,08:30,Start work,Productivity,"Morning,Afternoon",
+Friday,09:30,"Stand up–sit down x10, check posture",Exercise,"Morning,Afternoon",4
+Friday,10:30,Water sips,Health,"Morning,Noon,Afternoon,Evening",6
+Friday,12:00,Lunch,Schedule,Noon,
+Friday,12:45,Mobility routine (focus joints),Exercise,"Morning,Afternoon,Evening",
+Friday,17:30,Finish work,Productivity,"Afternoon,Evening",
+Friday,19:30,Dinner,Schedule,Evening,
+Friday,21:00,Self-care time,Leisure,"Evening,Night",1
+Friday,23:00,Review tomorrow's routine,Schedule,Night,
+Friday,23:30,Sleep,Schedule,Night,
+Saturday,07:00,Wake Up,Schedule,Morning,
+Saturday,07:05,Drink a full glass of water,Health,Morning,1
+Saturday,07:15,Medium long run,Exercise,"Morning,Afternoon,Evening",
+Saturday,08:00,Breakfast,Schedule,Morning,
+Saturday,10:00,Leisure activity,Leisure,"Morning,Afternoon,Evening",
+Saturday,12:00,Lunch,Schedule,Noon,
+Saturday,14:00,Hobby time,Leisure,"Afternoon,Evening",1
+Saturday,16:00,Energizing walk,Exercise,"Morning,Afternoon,Evening",2
+Saturday,19:30,Dinner,Schedule,Evening,
+Saturday,21:00,Self-care time,Leisure,"Evening,Night",1
+Saturday,23:00,Review tomorrow's routine,Schedule,Night,
+Saturday,23:30,Sleep,Schedule,Night,
+Sunday,07:00,Wake Up,Schedule,Morning,
+Sunday,07:05,Drink a full glass of water,Health,Morning,1
+Sunday,07:15,Gentle stretch,Exercise,"Morning,Afternoon,Evening",
+Sunday,08:00,Breakfast,Schedule,Morning,
+Sunday,10:00,Personal planning,Productivity,"Morning,Noon",1
+Sunday,12:00,Lunch,Schedule,Noon,
+Sunday,14:00,Light chore or shopping,Chores,"Afternoon,Evening",
+Sunday,16:00,Relaxation time,Leisure,"Afternoon,Evening",1
+Sunday,19:30,Dinner,Schedule,Evening,
+Sunday,21:00,Self-care time,Leisure,"Evening,Night",1
+Sunday,22:00,Review tomorrow's routine,Schedule,Night,
+Sunday,22:30,Sleep,Schedule,Night,

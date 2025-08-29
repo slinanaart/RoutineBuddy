@@ -1,0 +1,20 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradMask" x1="25%" y1="15%" x2="75%" y2="85%">
+      <stop offset="0%" stop-color="#12B5B7"/>
+      <stop offset="100%" stop-color="#089092"/>
+    </linearGradient>
+  </defs>
+  <!-- Flat maskable variant (no shadows) -->
+  <circle cx="256" cy="256" r="256" fill="#064F50"/>
+  <circle cx="256" cy="256" r="230" fill="url(#gradMask)"/>
+  <circle cx="360" cy="150" r="28" fill="#FFB648"/>
+  <circle cx="168" cy="128" r="20" fill="#FFB648"/>
+  <circle cx="132" cy="308" r="22" fill="#FFB648"/>
+  <g stroke="#FFFFFF" stroke-linecap="round" stroke-width="28">
+    <line x1="256" y1="256" x2="256" y2="148"/>
+    <line x1="256" y1="256" x2="340" y2="256"/>
+  </g>
+  <circle cx="256" cy="256" r="30" fill="#FFFFFF"/>
+  <path d="M190 318 Q256 366 322 318" fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

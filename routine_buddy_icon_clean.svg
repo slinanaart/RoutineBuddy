@@ -1,0 +1,80 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0FA3A5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0C7B7D;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="clockGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#F8F8F8;stop-opacity:0.9" />
+    </linearGradient>
+    <radialGradient id="centerGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#085B5D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0FA3A5;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background Circle with subtle shadow -->
+  <circle cx="256" cy="260" r="245" fill="#000000" opacity="0.15"/>
+  <circle cx="256" cy="256" r="245" fill="url(#bgGradient)" stroke="#064B4D" stroke-width="6"/>
+  
+  <!-- Clock Face -->
+  <circle cx="256" cy="256" r="190" fill="url(#clockGradient)" stroke="#0FA3A5" stroke-width="3"/>
+  
+  <!-- Hour Markers (major) -->
+  <g stroke="#0FA3A5" stroke-width="8" stroke-linecap="round">
+    <!-- 12 o'clock -->
+    <line x1="256" y1="80" x2="256" y2="105"/>
+    <!-- 3 o'clock -->
+    <line x1="432" y1="256" x2="407" y2="256"/>
+    <!-- 6 o'clock -->
+    <line x1="256" y1="432" x2="256" y2="407"/>
+    <!-- 9 o'clock -->
+    <line x1="80" y1="256" x2="105" y2="256"/>
+  </g>
+  
+  <!-- Hour Markers (minor) -->
+  <g stroke="#0FA3A5" stroke-width="4" stroke-linecap="round" opacity="0.6">
+    <!-- 1 o'clock -->
+    <line x1="348" y1="104" x2="338" y2="114"/>
+    <!-- 2 o'clock -->
+    <line x1="408" y1="164" x2="398" y2="174"/>
+    <!-- 4 o'clock -->
+    <line x1="408" y1="348" x2="398" y2="338"/>
+    <!-- 5 o'clock -->
+    <line x1="348" y1="408" x2="338" y2="398"/>
+    <!-- 7 o'clock -->
+    <line x1="164" y1="408" x2="174" y2="398"/>
+    <!-- 8 o'clock -->
+    <line x1="104" y1="348" x2="114" y2="338"/>
+    <!-- 10 o'clock -->
+    <line x1="104" y1="164" x2="114" y2="174"/>
+    <!-- 11 o'clock -->
+    <line x1="164" y1="104" x2="174" y2="114"/>
+  </g>
+  
+  <!-- Clock Hands (showing 10:10 - classic watch marketing time) -->
+  <!-- Hour hand (thick, shorter) -->
+  <line x1="256" y1="256" x2="210" y2="170" stroke="#064B4D" stroke-width="12" stroke-linecap="round"/>
+  <!-- Minute hand (thinner, longer) -->
+  <line x1="256" y1="256" x2="330" y2="140" stroke="#064B4D" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Routine Activity Dots (representing scheduled activities) -->
+  <g fill="#FFB74D" stroke="#FF9800" stroke-width="1">
+    <circle cx="256" cy="115" r="8"/> <!-- Morning -->
+    <circle cx="350" cy="180" r="8"/> <!-- Mid-morning -->
+    <circle cx="385" cy="256" r="8"/> <!-- Noon -->
+    <circle cx="350" cy="332" r="8"/> <!-- Afternoon -->
+    <circle cx="256" cy="397" r="8"/> <!-- Evening -->
+    <circle cx="162" cy="332" r="8"/> <!-- Evening -->
+    <circle cx="127" cy="256" r="8"/> <!-- Day -->
+    <circle cx="162" cy="180" r="8"/> <!-- Morning -->
+  </g>
+  
+  <!-- Center hub with gradient -->
+  <circle cx="256" cy="256" r="18" fill="url(#centerGradient)"/>
+  <circle cx="256" cy="256" r="8" fill="#FFFFFF" opacity="0.3"/>
+  
+  <!-- Subtle inner shadow for depth -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="url(#bgGradient)" stroke-width="2" opacity="0.3"/>
+</svg>

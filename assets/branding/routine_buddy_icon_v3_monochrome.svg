@@ -1,0 +1,8 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="RoutineBuddy Icon v3 Monochrome">
+  <rect x="0" y="0" width="512" height="512" rx="110" fill="#0E6A73"/>
+  <path d="M256 108 A148 148 0 0 1 404 256 A148 148 0 0 1 142 321" fill="none" stroke="#FFFFFF" stroke-width="38" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M170 300 L232 364 L388 205" fill="none" stroke="#FFFFFF" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="256" y1="256" x2="330" y2="200" stroke="#FFFFFF" stroke-width="34" stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="256" y2="160" stroke="#FFFFFF" stroke-width="34" stroke-linecap="round"/>
+  <circle cx="256" cy="256" r="24" fill="#FFFFFF"/>
+</svg>

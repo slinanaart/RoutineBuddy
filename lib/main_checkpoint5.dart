@@ -21,6 +21,9 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'utils/casual_template_parser.dart';
+import 'models/casual_template_settings.dart';
+import 'models/casual_template_action.dart';
 
 // ============================================================================
 // UTILITY FUNCTIONS
@@ -469,42 +472,61 @@ class _CasualPreviewScreenState extends State<CasualPreviewScreen> {
     _loadPreviewActions();
   }
   
-  void _loadPreviewActions() {
+  void _loadPreviewActions() async {
     final currentWeekday = selectedDate.weekday; // 1=Monday, 7=Sunday
     
-    // Get casual template actions for current day
-    final dayActions = getCasualTemplateActions()
-        .where((action) => action['dayOfWeek'] == currentWeekday)
-        .map((action) => Map<String, dynamic>.from(action))
-        .toList();
-    
-    // Sort actions by time
-    dayActions.sort((a, b) {
-      final timeA = a['time'] as TimeOfDay;
-      final timeB = b['time'] as TimeOfDay;
+    try {
+      // Load template data from CSV
+      final (settings, actions) = await CasualTemplateParser.parseFromAsset('assets/data/The_Casual_Template.csv');
       
-      // Convert times to minutes, treating 00:00 (sleep) as end of day (24:00 = 1440 minutes)
-      int minutesA = timeA.hour * 60 + timeA.minute;
-      int minutesB = timeB.hour * 60 + timeB.minute;
+      // Filter actions for current day and spread anchors
+      final dayActions = actions
+          .where((action) => action.dayOfWeek == currentWeekday)
+          .expand((action) => action.spreadAnchors(settings.sleepTime))
+          .map((action) => {
+            'time': action.time,
+            'name': action.name,
+            'category': action.category,
+            'dayOfWeek': action.dayOfWeek,
+            'frequency': action.frequency,
+            'isScheduleTime': action.category.toLowerCase() == 'schedule',
+          })
+          .toList();
       
-      // Special handling for sleep time (00:00) - treat as end of day
-      final nameA = a['name'] ?? '';
-      final nameB = b['name'] ?? '';
-      if ((nameA.contains('Sleep') || nameA.contains('😴')) && timeA.hour == 0 && timeA.minute == 0) {
-        minutesA = 24 * 60; // 24:00 = end of day
-      }
-      if ((nameB.contains('Sleep') || nameB.contains('😴')) && timeB.hour == 0 && timeB.minute == 0) {
-        minutesB = 24 * 60; // 24:00 = end of day
-      }
+      // Sort actions by time
+      dayActions.sort((a, b) {
+        final timeA = a['time'] as TimeOfDay;
+        final timeB = b['time'] as TimeOfDay;
+        
+        // Convert times to minutes, treating 00:00 (sleep) as end of day (24:00 = 1440 minutes)
+        int minutesA = timeA.hour * 60 + timeA.minute;
+        int minutesB = timeB.hour * 60 + timeB.minute;
+        
+        // Special handling for sleep time (00:00) - treat as end of day
+        final nameA = a['name']?.toString() ?? '';
+        final nameB = b['name']?.toString() ?? '';
+        if ((nameA.contains('Sleep') || nameA.contains('😴')) && timeA.hour == 0 && timeA.minute == 0) {
+          minutesA = 24 * 60; // 24:00 = end of day
+        }
+        if ((nameB.contains('Sleep') || nameB.contains('😴')) && timeB.hour == 0 && timeB.minute == 0) {
+          minutesB = 24 * 60; // 24:00 = end of day
+        }
+        
+        return minutesA.compareTo(minutesB);
+      });
       
-      return minutesA.compareTo(minutesB);
-    });
-    
-    setState(() {
-      displayActions = dayActions;
-    });
-    
-    print('DEBUG: Loaded ${dayActions.length} preview actions for ${_getDayName(currentWeekday)}');
+      setState(() {
+        displayActions = dayActions;
+      });
+      
+      print('DEBUG: Loaded ${dayActions.length} preview actions for ${_getDayName(currentWeekday)}');
+    } catch (e) {
+      print('Error loading template data: $e');
+      // Fallback to empty list
+      setState(() {
+        displayActions = [];
+      });
+    }
   }
   
   String _getDayName(int weekday) {
@@ -641,6 +663,7 @@ class _CasualPreviewScreenState extends State<CasualPreviewScreen> {
                       final time = action['time'] as TimeOfDay;
                       final name = action['name'] ?? 'Unknown';
                       final category = action['category'] ?? 'General';
+                      final frequency = action['frequency'] ?? 1;
                       final displayCategory = _getCategoryDisplayName(category);
                       
                       return Card(
@@ -654,11 +677,45 @@ class _CasualPreviewScreenState extends State<CasualPreviewScreen> {
                               size: 20,
                             ),
                           ),
-                          title: Text(
-                            name,
-                            style: TextStyle(
-                              fontWeight: FontWeight.w500,
-                            ),
+                          title: Row(
+                            children: [
+                              Expanded(
+                                child: Text(
+                                  name,
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.w500,
+                                  ),
+                                ),
+                              ),
+                              if (frequency > 1)
+                                Container(
+                                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                  decoration: BoxDecoration(
+                                    color: Colors.blue.shade50,
+                                    borderRadius: BorderRadius.circular(12),
+                                    border: Border.all(color: Colors.blue.shade200, width: 1),
+                                  ),
+                                  child: Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    children: [
+                                      Icon(
+                                        Icons.repeat,
+                                        size: 12,
+                                        color: Colors.blue.shade600,
+                                      ),
+                                      SizedBox(width: 4),
+                                      Text(
+                                        '${frequency}x/day',
+                                        style: TextStyle(
+                                          fontSize: 11,
+                                          fontWeight: FontWeight.w600,
+                                          color: Colors.blue.shade600,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                            ],
                           ),
                           subtitle: displayCategory.isNotEmpty ? Text(
                             displayCategory,

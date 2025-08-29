@@ -26,9 +26,9 @@ echo "📅 Date: $DATE"
 echo "🔢 Version: 0.0.0.$VERSION"
 echo "📱 Output: $APK_NAME"
 
-# Ensure checkpoint3 code is active
-echo "🔄 Activating checkpoint3 code..."
-cp lib/main_checkpoint3.dart lib/main.dart
+# Ensure checkpoint8 code is active
+echo "🔄 Activating checkpoint8 code..."
+cp lib/main_checkpoint8_final.dart lib/main.dart
 
 # Create fresh project if main project has Gradle issues
 echo "🆕 Creating fresh build environment..."
@@ -36,12 +36,16 @@ rm -rf temp_build_project
 flutter create --platforms android temp_build_project
 cp lib/main.dart temp_build_project/lib/
 cp -r assets temp_build_project/ 2>/dev/null || true
+cp -r lib/utils temp_build_project/lib/ 2>/dev/null || true
+cp -r lib/models temp_build_project/lib/ 2>/dev/null || true
 cp pubspec.yaml temp_build_project/
 
 # Copy Android configuration for proper app name and custom launcher icon
 echo "📱 Configuring app name and custom launcher icon..."
-# Copy manifest (sets app label)
+# Copy manifest (sets app label) and fix namespace issue
 cp android/app/src/main/AndroidManifest.xml temp_build_project/android/app/src/main/
+# Remove deprecated package attribute from manifest
+sed -i '' 's/ package="com.example.routine_buddy"//' temp_build_project/android/app/src/main/AndroidManifest.xml
 # Copy launch background (optional)
 mkdir -p temp_build_project/android/app/src/main/res/drawable
 cp android/app/src/main/res/drawable/launch_background.xml temp_build_project/android/app/src/main/res/drawable/ 2>/dev/null || true

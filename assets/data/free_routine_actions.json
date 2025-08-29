@@ -64,7 +64,7 @@
   },
   {
     "id": 10,
-    "name": "Light exercise (5 min)",
+    "name": "Light exercise (10 min)",
     "category": "exercise",
     "recommendedTimes": ["Morning", "Afternoon", "Evening"],
     "recommendedDays": ["Weekdays", "Day-offs"]
@@ -78,14 +78,14 @@
   },
   {
     "id": 12,
-    "name": "Eye relaxation (1 min)",
-    "category": "health",
-    "recommendedTimes": ["Morning", "Noon", "Afternoon"],
-    "recommendedDays": ["Weekdays"]
+    "name": "Relaxation time",
+    "category": "leisure",
+    "recommendedTimes": ["Morning", "Noon", "Afternoon", "Evening"],
+    "recommendedDays": ["Weekdays", "Day-offs"]
   },
   {
     "id": 13,
-    "name": "Breathing exercise (2 min)",
+    "name": "Breathing exercise (10 min)",
     "category": "health",
     "recommendedTimes": ["Morning", "Evening", "Night"],
     "recommendedDays": ["Weekdays", "Day-offs"]
@@ -93,35 +93,35 @@
   {
     "id": 14,
     "name": "Positive highlight",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Morning", "Night"],
     "recommendedDays": ["Weekdays", "Day-offs"]
   },
   {
     "id": 15,
     "name": "Self-care time",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Evening", "Night"],
     "recommendedDays": ["Weekdays", "Day-offs"]
   },
   {
     "id": 16,
     "name": "Listen to music",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Noon", "Afternoon", "Evening", "Night"],
     "recommendedDays": ["Weekdays", "Day-offs"]
   },
   {
     "id": 17,
     "name": "Read a book",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Morning", "Afternoon", "Evening", "Night"],
     "recommendedDays": ["Weekdays", "Day-offs"]
   },
   {
     "id": 18,
     "name": "Journal reflection",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Night"],
     "recommendedDays": ["Weekdays", "Day-offs"]
   },
@@ -170,7 +170,7 @@
   {
     "id": 25,
     "name": "Social media check",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Afternoon", "Evening"],
     "recommendedDays": ["Weekdays", "Day-offs"]
   },
@@ -261,7 +261,7 @@
   {
     "id": 38,
     "name": "Leisure activity",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Morning", "Noon", "Afternoon", "Evening"],
     "recommendedDays": ["Day-offs"]
   },
@@ -282,35 +282,35 @@
   {
     "id": 41,
     "name": "Creative sketch",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Morning", "Afternoon", "Evening"],
     "recommendedDays": ["Weekdays", "Day-offs"]
   },
   {
     "id": 42,
     "name": "Draw or doodle",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Afternoon", "Evening"],
     "recommendedDays": ["Weekdays", "Day-offs"]
   },
   {
     "id": 43,
     "name": "Hobby time",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Afternoon", "Evening", "Night"],
     "recommendedDays": ["Day-offs"]
   },
   {
     "id": 44,
     "name": "Watch a show/movie",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Evening", "Night"],
     "recommendedDays": ["Weekdays", "Day-offs"]
   },
   {
     "id": 45,
     "name": "Play a game",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Afternoon", "Evening", "Night"],
     "recommendedDays": ["Weekdays", "Day-offs"]
   },
@@ -470,7 +470,7 @@
   },
   {
     "id": 68,
-    "name": "Stretch with band",
+    "name": "Gentle stretch",
     "category": "exercise",
     "recommendedTimes": ["Morning", "Afternoon"],
     "recommendedDays": ["Weekdays", "Day-offs"]
@@ -576,14 +576,14 @@
   {
     "id": 83,
     "name": "Morning routine",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Morning"],
     "recommendedDays": ["Weekdays", "Day-offs"]
   },
   {
     "id": 84,
     "name": "Outfit prep",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Night"],
     "recommendedDays": ["Weekdays", "Day-offs"]
   },
@@ -639,63 +639,63 @@
   {
     "id": 92,
     "name": "Gratitude journal",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Night"],
     "recommendedDays": ["Weekdays", "Day-offs"]
   },
   {
     "id": 93,
     "name": "Meditation & mind relax",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Morning", "Night"],
     "recommendedDays": ["Weekdays", "Day-offs"]
   },
   {
     "id": 94,
     "name": "Check in with my own emotions",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Morning", "Night"],
     "recommendedDays": ["Weekdays", "Day-offs"]
   },
   {
     "id": 95,
     "name": "Audio break",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Morning", "Noon", "Evening"],
     "recommendedDays": ["Weekdays", "Day-offs"]
   },
   {
     "id": 96,
     "name": "Helpful video",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Morning", "Noon", "Evening"],
     "recommendedDays": ["Weekdays"]
   },
   {
     "id": 97,
     "name": "Learn a new word",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Morning", "Noon", "Night"],
     "recommendedDays": ["Weekdays"]
   },
   {
     "id": 98,
     "name": "Language practice",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Morning", "Noon", "Evening"],
     "recommendedDays": ["Weekdays"]
   },
   {
     "id": 99,
     "name": "Skill practice (15 min)",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Afternoon", "Evening"],
     "recommendedDays": ["Weekdays"]
   },
   {
     "id": 100,
     "name": "Creative writing/sketching",
-    "category": "personal",
+    "category": "leisure",
     "recommendedTimes": ["Morning", "Night"],
     "recommendedDays": ["Weekdays"]
   }

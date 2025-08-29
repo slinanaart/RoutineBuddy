@@ -1,0 +1,36 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="maskableGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5ED4C1"/>
+      <stop offset="100%" stop-color="#239BAB"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Full circle for safe zone maskable compliance -->
+  <circle cx="512" cy="512" r="512" fill="url(#maskableGradient)"/>
+  
+  <!-- Slightly smaller elements to ensure they stay within safe zone -->
+  <path d="M512 180 A332 332 0 1 1 270 680" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="90" 
+        stroke-linecap="round"/>
+  
+  <line x1="512" y1="512" x2="512" y2="300" 
+        stroke="white" 
+        stroke-width="76" 
+        stroke-linecap="round"/>
+  <line x1="512" y1="512" x2="690" y2="380" 
+        stroke="white" 
+        stroke-width="76" 
+        stroke-linecap="round"/>
+  
+  <circle cx="512" cy="512" r="56" fill="white"/>
+  
+  <path d="M320 640 L450 780 L800 420" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="94" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+</svg>

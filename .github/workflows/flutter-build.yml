@@ -9,6 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
       
@@ -33,6 +35,17 @@ jobs:
           flutter build apk --release --build-name=0.0.0.5 --build-number=5
           cd build/app/outputs/flutter-apk
           mv app-release.apk ${BUILD_DATE}-rb-apk-ver0.0.0.5.apk
+          
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v0.0.0.5
+          name: Release v0.0.0.5
+          files: build/app/outputs/flutter-apk/*-rb-apk-ver*.apk
+          draft: false
+          prerelease: false
+          token: ${{ github.token }}
           
       - name: Upload APK
         uses: actions/upload-artifact@v3

@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="RoutineBuddy Icon v3 Maskable">
+  <defs>
+    <linearGradient id="bgGradM" x1="15%" y1="10%" x2="85%" y2="90%">
+      <stop offset="0%" stop-color="#6FD3BE"/>
+      <stop offset="100%" stop-color="#2A7F99"/>
+    </linearGradient>
+  </defs>
+  <!-- Full circle to be safely maskable by any shape -->
+  <circle cx="256" cy="256" r="256" fill="url(#bgGradM)"/>
+  <!-- Simplified strokes (slightly thicker for small sizes) -->
+  <path d="M256 112 A144 144 0 0 1 400 256 A144 144 0 0 1 150 318" fill="none" stroke="#FFFFFF" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M176 300 L236 364 L388 204" fill="none" stroke="#FFFFFF" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="256" y1="256" x2="328" y2="204" stroke="#FFFFFF" stroke-width="38" stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="256" y2="168" stroke="#FFFFFF" stroke-width="38" stroke-linecap="round"/>
+  <circle cx="256" cy="256" r="28" fill="#FFFFFF"/>
+</svg>

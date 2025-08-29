@@ -1,0 +1,39 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5ED4C1"/>
+      <stop offset="100%" stop-color="#239BAB"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded square background with exact gradient -->
+  <rect x="0" y="0" width="1024" height="1024" rx="220" ry="220" fill="url(#mainGradient)"/>
+  
+  <!-- Clock circle (partial, open where check mark continues) -->
+  <path d="M512 200 A312 312 0 1 1 285 650" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="80" 
+        stroke-linecap="round"/>
+  
+  <!-- Clock hands positioned at ~10:10 -->
+  <line x1="512" y1="512" x2="512" y2="320" 
+        stroke="white" 
+        stroke-width="68" 
+        stroke-linecap="round"/>
+  <line x1="512" y1="512" x2="670" y2="400" 
+        stroke="white" 
+        stroke-width="68" 
+        stroke-linecap="round"/>
+  
+  <!-- Center dot -->
+  <circle cx="512" cy="512" r="50" fill="white"/>
+  
+  <!-- Check mark that flows from the clock -->
+  <path d="M340 620 L460 750 L780 410" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="84" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+</svg>
